@@ -1,0 +1,15 @@
+.git_wrapper {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0 , 0, .2);
+}
+.git__column {
+    display: flex;
+    padding: 10px;
+}
+.git__column:not(:last-child) {
+    border-bottom: 1px solid rgba(0, 0 , 0, .2);
+}
+.clm_opt {
+    flex: 1;
+}
